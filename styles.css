@@ -97,3 +97,10 @@ header .fa-bars {
     display: none;
 }
 
+.imagem {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 0%;
+}
+
