@@ -55,13 +55,13 @@
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0.5rem 1rem rgba(#b2dafa);
+    box-shadow: 0.5rem 1rem rgba(#ff0000);
 }
 
 header .logo{
     font-size:3rem ;
     color: #333;
-    font-weight: bolder;
+
 } 
 
 header .logo span{
@@ -99,3 +99,62 @@ header .fa-bars {
     display: none;
 }
 
+.belanosima-bold {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .home {
+    display: flex;
+   align-items: center;
+    min-height: 100vh;
+    background: url(../img/pexels-ogproductionz-17242799.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+    padding-bottom: 21%;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 4rem;
+    color: #e20808;
+    text-align: right;
+    position: relative;
+    margin-right: 3.7%;
+    padding-right: 0.5%;
+    display: flex;
+    justify-content: end;
+}
+
+.home .content span{
+    font-size:1.1rem;
+    color:var(--blue);
+    padding: 1rem;
+    line-height:1.5;
+}
+
+.home .content h1{
+    font-size: 2.0rem;
+    color:hsl(244, 60%, 25%);
+    padding: 1.2rem;
+    line-height:1.2;
+    text-align: right;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.home .content p{
+    font-size: 1.9rem;
+    color:#e90000;
+    padding: 1.2rem;
+    text-align: right;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
