@@ -45,3 +45,58 @@
     border-radius: 10px;
     font-size: 16px;
   }
+
+
+  header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0.5rem 1rem rgba(#b2dafa);
+}
+
+header .logo{
+    font-size:3rem ;
+    color: #333;
+    font-weight: bolder;
+} 
+
+header .logo span{
+    color:var(--blue)
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color:var(--blue)
+}
+
+header .navbar a{
+    font-size: 2.5rem;
+    color:#333;
+    margin-left: 1.5rem;
+}
+
+
+header #toggler {
+    display: none;  
+}
+
+header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
