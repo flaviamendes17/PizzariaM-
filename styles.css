@@ -1,4 +1,50 @@
-
+.contact {
+    padding-left: 40rem;
+    padding-right: 40rem;
+    margin-top: 100px;
+  }
+  
+  .contact h2 {
+    margin-bottom: 3rem;
+    color: #6beb16;
+    font-size: 40px;
+  }
+  
+  .contact form {
+    /*caixa de mensagem*/
+    margin-top: 80px;
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .input-box input,
+  .contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    background: rgb(11, 172, 221);
+    border-radius: 5px;
+    border: 3px solid #0a20e2;
+    margin: 1rem 0;
+    resize: none;
+  }
+  
+  .contact form .btn {
+    padding: 1rem 8rem;
+    margin-top: 1rem;
+    color: #fa0000;
+    background-color: #fffb08;
+    border-radius: 10px;
+    font-size: 16px;
+  }
 
   header {
     position: fixed;
