@@ -104,3 +104,33 @@ header .fa-bars {
     margin-right: 0%;
 }
 
+.site-footer {
+  background-color: #4ffc0b;
+  color: #b2dafa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+.contact-info {
+  margin-bottom: 10px;
+}
+.author-name,
+.author-email{
+  margin-bottom: 5px;
+}
+
+.email-link{
+  color: #122e2f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.email-link.email-link:houver {
+  color: #f30101;
+}
+
+.footer-copy {
+  font-size: 0.9em;
+  color: rgb(0, 136, 255);
+}
+
