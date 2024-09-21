@@ -44,6 +44,46 @@
   font-size: 16px;
 }
 
+:root{
+  --bege: #dba660 
+}
+
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none; border: none;
+  text-decoration: none;
+  transition: .2s linear ;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow: hidden;
+}
+
+section {
+  padding:2rem 9%  ;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: #333;
+  color:#fff;
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn:hover{
+  background: #fff5eb
+  ;
+}
+
 header {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -53,7 +93,6 @@ header {
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-  box-shadow: 0.5rem 1rem rgba(#b2dafa);
 }
 
 header .logo{
@@ -63,7 +102,7 @@ header .logo{
 } 
 
 header .logo span{
-  color:var(--blue)
+  color:var(--bege)
 }
 
 header .navbar a {
@@ -73,7 +112,7 @@ header .navbar a {
 }
 
 header .navbar a:hover{
-  color:var(--blue)
+  color:var(--bege)
 }
 
 header .navbar a{
@@ -97,11 +136,46 @@ header .fa-bars {
   display: none;
 }
 
-.imagem {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  margin-right: 0%;
+
+
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: end;
+  padding-bottom: 21%;
+}
+
+.home .content{
+  max-width: 50rem;
+}
+
+.home .content p{
+  font-size: 10px;
+  color:#000000;
+  padding: 1.rem;
+  position: relative;
+  margin: 16px;
+}
+
+.banner {
+  width: 100%; /* Largura total do banner */
+  overflow: hidden; /* Esconde partes da imagem que ultrapassam o contêiner */
+}
+
+.banner img {
+  width: 100%; /* Ajusta a imagem à largura do banner */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove o espaço embaixo da imagem */
+  object-fit: cover; /* Faz a imagem cobrir todo o banner */
+}
+
+p {
+  font-size: 20px; 
+  margin: 16px;
 }
 
 .site-footer{
