@@ -6,7 +6,7 @@
 
 .contact h2 {
   margin-bottom: 3rem;
-  color:  #122e2f ;
+  color:  #0dedf5 ;
   font-size: 40px;
 }
 
@@ -30,7 +30,7 @@
   font-size: 1.2rem;
   background: #fff5eb;
   border-radius: 5px;
-  border: 3px solid  #122e2f;
+  border: 3px solid  #04dee6;
   margin: 1rem 0;
   resize: none;
 }
@@ -38,7 +38,7 @@
 .contact form .btn {
   padding: 1rem 8rem;
   margin-top: 1rem;
-  color:  #122e2f; 
+  color:  #2112ff; 
   background-color:  #fff5eb;
   border-radius: 10px;
   font-size: 16px;
@@ -188,6 +188,7 @@ padding: 4px;
 .contact-info {
 margin-bottom: 10px;
 }
+
 .author-name,
 .author-email{
 margin-bottom: 5px;
