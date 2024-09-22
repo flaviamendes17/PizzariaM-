@@ -250,6 +250,7 @@ h2 {
   text-align: left;
 }
 .item p {
+  /*sa coisa ta "left" e tá no meio do negocio*/
   margin-bottom: 1rem;
   text-align: left;
   color: #a51c2d;
