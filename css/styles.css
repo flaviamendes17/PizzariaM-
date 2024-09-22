@@ -136,47 +136,36 @@ header .fa-bars {
   display: none;
 }
 
+.header p {
+  font-size: 1.5em;
+}
 
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
 
+.section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555
+}
 
-.home {
+.image-grid {
   display: flex;
-  align-items: center;
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  justify-content: end;
-  padding-bottom: 21%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
-.home .content{
-  max-width: 50rem;
+.image-grid img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
 }
 
-.home .content p{
-  font-size: 10px;
-  color:#000000;
-  padding: 1.rem;
-  position: relative;
-  margin: 16px;
-}
 
-.banner {
-  width: 100%; /* Largura total do banner */
-  overflow: hidden; /* Esconde partes da imagem que ultrapassam o contêiner */
-}
-
-.banner img {
-  width: 100%; /* Ajusta a imagem à largura do banner */
-  height: auto; /* Mantém a proporção da imagem */
-  display: block; /* Remove o espaço embaixo da imagem */
-  object-fit: cover; /* Faz a imagem cobrir todo o banner */
-}
-
-p {
-  font-size: 20px; 
-  margin: 16px;
-}
 
 .site-footer{
 background-color: #fff5eb;
