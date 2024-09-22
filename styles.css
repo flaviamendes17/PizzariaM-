@@ -142,24 +142,138 @@ header .fa-bars {
     /*bota a fonte aqui Flavia*/
   }
 
-  .heading{
-    background-color: #122e2f ;
-    color: aqua;
-    margin-bottom: 30px;
-    padding: 30px 0;
-    grid-column: 1/-1;
-    text-align: center;
-  }
-.heading>h1{
-  font-weight: 400;
-  font-size: 32px;
-  letter-spacing: 10px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+ body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ }
+.container{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
-.heading>h3{
-  font-weight: 600;
-  font-size: 22px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
+h1 {
+  color: #333;
 }
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+.menu-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+h5{
+  color: #333;
+  /*fontezinha*/
+}
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+.menu-item h2 {
+  color: #333;
+  margin-top: 10px;
+}
+.menu-item .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #c82333;
+}
+.carrinho-btn {
+  background-color: #c82333;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+.carrinho-btn:hover {
+  background-color: #a51c2d;
+}
+
+body{
+  font-family: sans-serif;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  color: #333;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.item h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.item p {
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #a51c2d;
+  font-weight: bold; /*negrito*/
+}
+.button {
+  background-color: #f44336;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #d32f2f;
+}
+h5{
+  color: #333;
+  text-align: left;
+}
+
+
+
+
+
