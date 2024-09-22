@@ -6,7 +6,7 @@
 
 .contact h2 {
   margin-bottom: 3rem;
-  color:  #0dedf5 ;
+  color: #0dedf5;
   font-size: 40px;
 }
 
@@ -30,7 +30,7 @@
   font-size: 1.2rem;
   background: #fff5eb;
   border-radius: 5px;
-  border: 3px solid  #04dee6;
+  border: 3px solid #04dee6;
   margin: 1rem 0;
   resize: none;
 }
@@ -38,23 +38,25 @@
 .contact form .btn {
   padding: 1rem 8rem;
   margin-top: 1rem;
-  color:  #2112ff; 
-  background-color:  #fff5eb;
+  color: #2112ff;
+  background-color: #fff5eb;
   border-radius: 10px;
   font-size: 16px;
 }
 
-:root{
-  --bege: #dba660 
+:root {
+  --bege: #dba660
 }
 
-*{
-  margin:0; padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  outline: none; border: none;
+  outline: none;
+  border: none;
   text-decoration: none;
-  transition: .2s linear ;
+  transition: .2s linear;
 }
 
 html {
@@ -65,28 +67,29 @@ html {
 }
 
 section {
-  padding:2rem 9%  ;
+  padding: 2rem 9%;
 }
 
-.btn{
+.btn {
   display: inline-block;
   margin-top: 1rem;
   border-radius: 5rem;
   background: #333;
-  color:#fff;
+  color: #fff;
   padding: .9rem 3.5rem;
   cursor: pointer;
   font-size: 1.7rem;
 }
 
-.btn:hover{
-  background: #fff5eb
-  ;
+.btn:hover {
+  background: #fff5eb;
 }
 
 header {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   background: #fff;
   padding: 2rem 9%;
   display: flex;
@@ -95,14 +98,14 @@ header {
   z-index: 1000;
 }
 
-header .logo{
-  font-size:3rem ;
+header .logo {
+  font-size: 3rem;
   color: #333;
   font-weight: bolder;
-} 
+}
 
-header .logo span{
-  color:var(--bege)
+header .logo span {
+  color: var(--bege)
 }
 
 header .navbar a {
@@ -111,19 +114,19 @@ header .navbar a {
   color: #666;
 }
 
-header .navbar a:hover{
-  color:var(--bege)
+header .navbar a:hover {
+  color: var(--bege)
 }
 
-header .navbar a{
+header .navbar a {
   font-size: 2.5rem;
-  color:#333;
+  color: #333;
   margin-left: 1.5rem;
 }
 
 
 header #toggler {
-  display: none;  
+  display: none;
 }
 
 header .fa-bars {
@@ -132,7 +135,7 @@ header .fa-bars {
   border-radius: .5rem;
   padding: .5rem 1.5rem;
   cursor: pointer;
-  border: .1rem solid rgba(0,0,0,.3);
+  border: .1rem solid rgba(0, 0, 0, .3);
   display: none;
 }
 
@@ -166,62 +169,54 @@ header .fa-bars {
 }
 
 
-
-.site-footer{
-background-color: #fff5eb;
-color: #020303;
-text-align: center;
-padding: 4px; 
+/*ALGUEM ARRUMA ISSO AQUI PELO AMOR DE DEUS A FOOTER TA UM QUADRADO NO MEIO DA TELA (ERA PRA SER UM RETANGULO*/
+.site-footer {
+  background-color: #e9be93;
+  color: #020303;
+  text-align: center;
+  padding: 4px;
 }
 
 .contact-info {
-margin-bottom: 10px;
+  margin-bottom: 10px;
+
 }
 
 .author-name,
-.author-email{
-margin-bottom: 5px;
+.author-email {
+  margin-bottom: 5px;
+
 }
 
-.email-link{
-color: #1d4636;
-text-decoration: none;
-transition: color 0.3s;
+.email-link {
+  color: #1d4636;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .email-link.email-link:houver {
-color: #f30101;
+  color: #f30101;
 }
 
-.footer-copy{
-font-size: 0.9em;
-color: rgb(0, 0, 0);
+.footer-copy {
+  font-size: 0.9em;
+  color: rgb(0, 0, 0);
 }
+
 .section-1 {
   text-align: center;
-  }
+}
 
-  body{
-    background: #fdfdfd;
-    /*bota a fonte aqui Flavia*/
-  }
+body {
+  background: #fdfdfd;
+  /*bota a fonte aqui Flavia*/
+}
 
-  .heading{
-    background-color: #122e2f ;
-    color: aqua;
-    margin-bottom: 30px;
-    padding: 30px 0;
-    grid-column: 1/-1;
-    text-align: center;
-  }
-
-  
-
-
-
-
-
-
-
-
-
+.heading {
+  background-color: #122e2f;
+  color: aqua;
+  margin-bottom: 30px;
+  padding: 30px 0;
+  grid-column: 1/-1;
+  text-align: center;
+}

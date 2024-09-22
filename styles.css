@@ -2,12 +2,16 @@
     padding-left: 40rem;
     padding-right: 40rem;
     margin-top: 200px;
+    background-color: #fff5eb;
   }
   
   .contact h2 {
 /*é AQUI Q TEM QUE MEXER PRA CONCERTAR O QUADRADO DO CONTATO*/
-    color:  #ff0b0b ;
+    color:  #082711 ;
     font-size: 40px;
+    margin-bottom: 45px;
+
+    
   }
   
   .contact form {
@@ -20,7 +24,6 @@
   
   .contact form .input-box {
     justify-content: center;
-    flex-wrap: wrap;
   }
   
   .contact form .input-box input,
@@ -54,7 +57,7 @@
     justify-content: space-between;
     z-index: 1000;
     box-shadow: 0.5rem 1rem rgba(#b2dafa);
-}
+  }
 
 header .logo{
     font-size:3rem ;
@@ -137,10 +140,6 @@ header .fa-bars {
   }
   /*arrumar a fonte e o tamanho amanhã*/
 
-  body{
-    background: #fdfdfd;
-    /*bota a fonte aqui Flavia*/
-  }
   .heading{
     background-color: #fff5eb ;
     color: rgb(12, 12, 12);
@@ -150,12 +149,12 @@ header .fa-bars {
     text-align: center;
   }
   .heading>h1{
-    font-weight: 400;
-    font-size: 32px;
-    letter-spacing: 10px;
-    margin-bottom: 10px;
+    font-weight: 600; /*tamanho da palavra menu*/
+    letter-spacing: 8px;
+    margin-bottom: 45px;
     text-transform: uppercase;
   }
+
 
  body{
   font-family: Arial, sans-serif;
@@ -164,6 +163,7 @@ header .fa-bars {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  
  }
 
 .container{
@@ -265,7 +265,7 @@ h2 {
   font-size: 1.2rem;
   text-align: left;
 }
-.item p {
+.item p { /*$*/
   margin-bottom: 1rem;
   text-align: left;
   color: #c82333;
