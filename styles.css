@@ -144,7 +144,6 @@ header .fa-bars {
 
  body{
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
   justify-content: center;
@@ -155,7 +154,6 @@ header .fa-bars {
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 h1 {
@@ -230,6 +228,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  
 }
 .item {
   background-color: #fff;
@@ -242,7 +241,7 @@ h2 {
 .item img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 8px 8px 0 0;
   margin-bottom: 1rem;
 }
 .item h3 {
